@@ -1,0 +1,16 @@
+# get - get data from the server
+# post - create resource in the server
+put - full update
+patch - partial update of resource
+delete - delete data from the server
+
+
+pytest = control order execution
+pytest dependency feature - make dependency b/w tests
+if main test fails, then dependency tests will be skipped
+
+
+3 imp rules for API testing
+1.Pre-conditions - content type, set cookies, add auth, add param, set headers
+2.Actions - get, put, post, delete
+3.Validations - Status code, Response body, Response time, content-type, headers and cookies
