@@ -14,3 +14,24 @@ if main test fails, then dependency tests will be skipped
 1.Pre-conditions - content type, set cookies, add auth, add param, set headers
 2.Actions - get, put, post, delete
 3.Validations - Status code, Response body, Response time, content-type, headers and cookies
+
+Request --> Payload --> Request Body --> JSON format
+Post method will generate ID using this we can Update and delete the resource
+
+ways to create request payload
+1 - Dictionary
+2 - JSON module
+3 - Python custom class
+4 - DataClasses
+5 - External json file
+
+pytest fixtures - functions(with setup and teardown steps)
+
+setup()
+yield
+teardown()
+
+fixture function needs to be passed as an argument to test functions
+fixture function will be defined in conftest.py
+
+create our own dummy API - json-server --watch students.json
