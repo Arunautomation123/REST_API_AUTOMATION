@@ -35,3 +35,30 @@ fixture function needs to be passed as an argument to test functions
 fixture function will be defined in conftest.py
 
 create our own dummy API - json-server --watch students.json
+
+https://restcountries.com/v2/name/India
+
+Authentication:  Verifies the identity of the user or system trying to access the API,
+ensuring they are who they claim to be. This step is necessary for securing APIs
+
+Basic auth - sent auth in request format - username, password sent in request and it is encoded
+Digest Auth - sent auth in request format - username, password sent in request and it is encrypted
+Bearer token - token sent as part of headers
+API key - generate a key and use it in headers
+Oauth2.0 -
+client ID
+client secret
+we need to generate this manually
+
+send post request for generating token
+Token URL
+Redirect URL
+Grant Type
+Authorization Code
+
+we will get token once post request is succesfull
+Use token to do API call
+
+
+
+Authorization: Determines what actions or data the authenticates user is permitted to access, controlling their level of access

@@ -1,0 +1,12 @@
+{
+      "id": "1017",
+      "name": "Carlos sainz",
+      "active": true,
+      "grades": [
+        2.3,
+        4.3,
+        5
+      ],
+      "yearsOld": 35,
+      "color": "blue"
+}
