@@ -59,6 +59,32 @@ Authorization Code
 we will get token once post request is succesfull
 Use token to do API call
 
-
-
 Authorization: Determines what actions or data the authenticates user is permitted to access, controlling their level of access
+
+Upload and download will trigger an API call
+
+https://randomuser.me/API/
+
+JSON is faster for data transfer, lighter , encryption and decryption.
+XML stands for extensible markup language, for SOAP PAIs, for human/machine readable
+
+<user id="1" role='admin'>Arun</user> - role is attribute
+
+Postman does not support XSD , we need to covert xml to json xm2json
+xm2json(reponsebody)
+
+in Python use xmltodict package
+
+
+Schema validation
+
+Schema is blueprint of table, what fields, data types, which fields
+
+xml response --> xsd
+json response --> json schema
+schema given by developers
+
+validate whether response follows schema validation
+xsd - xml schema validation
+xml --> xsd --> json --> json schema
+
