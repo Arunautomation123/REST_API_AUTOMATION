@@ -47,7 +47,7 @@ class TestXMLParsing:
 
         json_data =xmltodict.parse(resp.text)
         json_string = json.dumps(json_data, indent=4)
-        # print(json_string)
+        # print(json_string)   
 
         data = json_data['slideshow']
         assert data['@title'] == 'Sample Slide Show', "Wrong title"

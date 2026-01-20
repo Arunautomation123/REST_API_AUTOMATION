@@ -88,3 +88,12 @@ validate whether response follows schema validation
 xsd - xml schema validation
 xml --> xsd --> json --> json schema
 
+Faker library - generate random data
+
+API chaining involves executing multiple API requests in sequence, where the response or part of the response
+from one request is used as input for next or subsequent request
+
+we will store response in variables and use those variables as part of request
+
+
+
