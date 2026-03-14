@@ -1,0 +1,20 @@
+ - open source load testing tool
+ - define how you want to test
+
+current version - 1.4.3
+ swarm - group of animals that aggregate and travel in same direction
+ hatching - production
+ spawn - release new
+
+ - Comes with distributed node(no setup needed like Jmeter)
+ - supports multiple protocols
+
+
+ User class - Represents a user which is to be spawned and attack the system - greenlet
+ locust works with Flask UI
+
+ locust -f filename.py --hostname
+
+ TaskSet is and advanced feature
+ structure the hierarchical
+ can be nested
