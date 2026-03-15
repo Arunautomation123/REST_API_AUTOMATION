@@ -15,7 +15,7 @@ class MyReqRes(HttpUser):
     def get_users(self):
         self.client.get('posts/1')
 
-    @task
-    def create_user(self):
-        self.client.post('posts', json=self.json_data)
+    # @task
+    # def create_user(self):
+    #     self.client.post('posts', json=self.json_data)
 

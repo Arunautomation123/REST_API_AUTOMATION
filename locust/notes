@@ -18,3 +18,32 @@ current version - 1.4.3
  TaskSet is and advanced feature
  structure the hierarchical
  can be nested
+
+ Wait time or think time
+ helps to simulate real world scenarios
+
+
+ commands
+ -> locust -h
+ # for automated testing in jenkins
+ -> locust -f file_name.py -u 1 -r 1 -t 10s --headless --csv run.csv --csv-full-history --print-stats --host=https://example.com
+ -> -L CRITICAL --logfile mylog.log --html Run1
+ -> -l list of classes
+ -> --show-task-ratio
+ -> --only-summary
+ -> --tags get
+
+ User and taskset has on_start and on_stop methods
+ these methods will be executed only once
+
+ Correlation
+ - extracting the dynamic values from the response
+ - pass the extracted value in the subsequent requests
+ - session id, order number
+
+ Configuration
+ - configuration can be stored inside .conf or yaml files this has highest prio
+ - --config configuration file or yaml files
+
+ Events
+ we can do tasks at certain circumstances using the event hooks

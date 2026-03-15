@@ -29,7 +29,7 @@ from locust import task, TaskSet, constant, HttpUser, SequentialTaskSet
 #     wait_time = constant(1)
 #     tasks = [MyTask, MyAnotherTask]
 
-class MySequentialTaskSet(TaskSet):
+class MySequentialTaskSet(SequentialTaskSet):
     @task
     def get_status(self):
         self.client.get('/500')
